@@ -1,0 +1,308 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Cons",
+				"ConsultantSchedule"
+			],
+			[
+				"pro",
+				"projects"
+			],
+			[
+				"last",
+				"lastName"
+			],
+			[
+				"src",
+				"srcs"
+			],
+			[
+				"in",
+				"inIdsArray"
+			],
+			[
+				"aca",
+				"academicYear"
+			],
+			[
+				"C",
+				"Consultation"
+			],
+			[
+				"address",
+				"address1"
+			],
+			[
+				"ser",
+				"serviceEnd"
+			],
+			[
+				"phone",
+				"phoneType"
+			],
+			[
+				"Con",
+				"ConsultationDetailView"
+			],
+			[
+				"re",
+				"remove"
+			],
+			[
+				"add",
+				"Address1"
+			],
+			[
+				"Consult",
+				"ConsultList"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1668,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 5070,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 380.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Get Elements"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/jay/Desktop/imb_routes.txt",
+		"/C/Users/jay/Documents/GitHub/poker/poker.sublime-project",
+		"/C/Users/jay/My Dropbox/backbone/js/test.js",
+		"/C/Users/jay/My Dropbox/backbone/js/app.js",
+		"/C/Users/jay/My Dropbox/backbone-jasmine/SpecRunner.html",
+		"/C/Users/jay/My Dropbox/backbone-jasmine/spec/collections/consultation-spec.js",
+		"/C/Users/jay/My Dropbox/backbone/js/collections/consultations.js",
+		"/C/Users/jay/My Dropbox/backbone-jasmine/spec/models/consultation-spec.js",
+		"/C/Users/jay/My Dropbox/backbone/js/models/consultation.js",
+		"/C/Users/jay/My Dropbox/backbone/index.html",
+		"/C/dev/projects/rds/RDS-Parent/RDS-SalesForce-ServiceClient/docs/create-db.sql",
+		"/C/Users/jay/My Dropbox/backbone-jasmine/spec/SpecHelper.js",
+		"/C/Users/jay/My Dropbox/backbone-jasmine/spec/ConsultationModelSpec.js",
+		"/C/Users/jay/Desktop/backbone/js/views/consultations.js",
+		"/C/Users/jay/Desktop/backbone/index.html",
+		"/C/Users/jay/Desktop/backbone/js/models/consultation.js",
+		"/C/Users/jay/Desktop/backbone/js/views/app.js",
+		"/C/Users/jay/Desktop/addyosmani-todomvc-528500a/architecture-examples/backbone-todomvc/js/routers/router.js",
+		"/C/Users/jay/Desktop/addyosmani-todomvc-528500a/architecture-examples/backbone-todomvc/js/views/todos.js",
+		"/C/Users/jay/Desktop/addyosmani-todomvc-528500a/architecture-examples/backbone-todomvc/js/views/app.js",
+		"/C/Users/jay/Desktop/addyosmani-todomvc-528500a/architecture-examples/backbone-todomvc/js/models/todo.js",
+		"/C/Users/jay/Desktop/backbone/js/app.js",
+		"/C/Users/jay/Desktop/addyosmani-todomvc-528500a/architecture-examples/backbone-todomvc/js/app.js",
+		"/C/Users/jay/Desktop/backbone/js/collections/consultations.js",
+		"/C/Users/jay/Desktop/addyosmani-todomvc-528500a/architecture-examples/backbone-todomvc/js/collections/todos.js",
+		"/C/Users/jay/Desktop/backbone/css/base.css",
+		"/C/Users/jay/Desktop/backbone/js/routers/router.js",
+		"/C/Users/jay/Desktop/backbone/js/lib/backbone-localstorage.js",
+		"/C/Users/jay/Desktop/backbone/js/lib/backbone.localstorage.js",
+		"/C/dev/projects/rds/RDS-Parent/rds-portal/grails-app/controllers/com/genworth/rds/portal/OrderController.groovy",
+		"/C/dev/projects/rds/RDS-Parent/rds-admin/grails-app/conf/Config.groovy",
+		"/C/Users/jay/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/jay/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/jay/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/dev/projects/rds/RDS-Parent/rds-portal/grails-app/controllers/com/genworth/rds/portal/PaymentController.groovy",
+		"/C/dev/projects/rds/RDS-Parent/rds-admin/grails-app/conf/UrlMappings.groovy",
+		"/C/dev/projects/rds/RDS-Parent/rds-admin/grails-app/conf/BuildConfig.groovy"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1668,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								939,
+								939
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/app.js",
+					"settings":
+					{
+						"buffer_size": 5070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								544,
+								544
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true
+}

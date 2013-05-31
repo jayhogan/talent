@@ -1,0 +1,141 @@
+==========
+Domain Model
+==========
+Consultant
+- Name
+- Grade -- 1 --> Grade
+- Team -- 1 --> Team
+- SubTeam -- 0 or 1 --> SubTeam
+- Manager -- 0 or 1 --> Consultant
+- StartDate
+- EndDate
+- Projects -- 0 or many --> ProjectMembership
+- NonbillableTime -- 0 or many --> NonbillableTime
+
+NonbillableTime
+- Consultant -- 1 --> Consultant
+- Type -- 1 --> NonbillableType
+- Week
+- Hours
+
+Project
+- Name
+- Client -- 1 --> Client
+- StartDate
+- EndDate
+- SOW
+- Likelihood% - Note: If a project is In Delivery, this should be 100% (even if no SOW)
+- Note
+- Members -- 0 or many --> ProjectMembership
+
+
+
+Schedule
+- Week_id
+- Consultant_id
+- ProjectMember_id
+- Hours
+- Note
+
+
+
+ProjectMembership
+- Project -- 1 --> Project
+- Consultant -- 0 or 1 --> Consultant
+- Placeholder -- 0 or 1 --> Placeholder
+- Role -- 1 --> Role
+- Utilization -- 0 or many --> Utilization
+- Note
+
+Utilization
+- ProjectMember -- 1 -->
+- Week
+- Hours
+- Note
+
+Grade - Leadership, Director, MC, SC, C
+Team - Leadership, Client Partners, Delivery, Project Excellance, Technology, S&A / OD, Data/Analytics, Cust Research, UX, Sub
+SubTeam - Tech[AppDev, CMS, QA, Enterprise, DevOps]
+Hours - 
+Client
+Role
+Placeholder
+Week
+
+
+==========
+Alternative Domain Model
+==========
+Consultant
+- Name
+- Grade -- 1 --> Grade
+- Team -- 1 --> Team
+- SubTeam -- 0 or 1 --> SubTeam
+- Manager -- 0 or 1 --> Consultant
+- StartDate
+- EndDate
+- Projects -- 0 or many --> ProjectMembership
+- NonbillableTime -- 0 or many --> NonbillableTime
+
+NonbillableTime
+- Consultant -- 1 --> Consultant
+- Type -- 1 --> NonbillableType
+- Week
+- Hours
+
+Project
+- Name
+- Client -- 1 --> Client
+- StartDate
+- EndDate
+- SOW
+- Likelihood% - Note: If a project is In Delivery, this should be 100% (even if no SOW)
+- Note
+- Members -- 0 or many --> ProjectMembership
+
+
+
+Schedule
+- Week_id
+- Consultant_id
+- Project_id
+- Hours
+- Note
+
+
+
+ProjectMembership
+- Project -- 1 --> Project
+- Consultant -- 0 or 1 --> Consultant
+- Placeholder -- 0 or 1 --> Placeholder
+- Role -- 1 --> Role
+- Utilization -- 0 or many --> Utilization
+- Note
+
+Utilization
+- ProjectMember -- 1 -->
+- Week
+- Hours
+- Note
+
+Grade - Leadership, Director, MC, SC, C
+Team - Leadership, Client Partners, Delivery, Project Excellance, Technology, S&A / OD, Data/Analytics, Cust Research, UX, Sub
+SubTeam - Tech[AppDev, CMS, QA, Enterprise, DevOps]
+Hours - 
+Client
+Role
+Placeholder
+Week
+
+========
+UI Logic
+========
+
+var weeks = Week.all(); // Array of weeks
+consultants.forEach(function(consultant, conIdx) {
+	consultant.projects.forEach(function(membership, mbrIdx) {
+		membership.utilization.forEach(function(utilEntry, utilIdx) {
+			
+		});
+	});
+});
